@@ -1,0 +1,140 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Django / Flask stuff
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+instance/
+.webassets-cache
+
+# Jupyter / IPython
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# Documentation
+docs/_build/
+.site
+
+# IDE / Editors
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.pybuilder/
+target/
+
+# Cython / SageMath
+cython_debug/
+*.sage.py
+
+# macOS / Windows OS junk
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Local dev files / backups
+*.pem
+*.json
+*.xlsx
+*.stackdump
+*.spec
+*.manifest
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+*.bak
+*.old
+
+# Project-specific
+data/*
+media/*
+static/*
+employee/migrations/*
+sales/migrations/*
+!*/migrations/__init__.pys
+run-docker.bat
+db_backup*.json
+aadhaar*.jpg
+samp.py
+s.py
+sample.py
+lambda.py
+*.md

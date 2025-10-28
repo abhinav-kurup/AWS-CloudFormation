@@ -1,0 +1,55 @@
+# Git
+.git
+.gitignore
+
+# Python cache / venv
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Logs & local DB
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# IDEs & editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker itself
+Dockerfile
+.dockerignore
+
+# Environment & secrets
+.env
+*.pem
+*.key
+*.crt
+*.json
+*.xlsx
+
+# Local scripts / docs not needed in container
+deployment.md
+run-docker.bat
+deploy/
+*.md
+
+# Django build artifacts
+staticfiles/
+media/
+data/
+tmp/
+*.sqlite3
+
+# Django migrations (optional: keep only if you want fresh container migrations)
+**/migrations/
+!**/migrations/__init__.py   # keep init so Django still detects package

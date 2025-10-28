@@ -1,0 +1,7 @@
+Django
+djangorestframework
+channels
+gunicorn
+daphne
+boto3
+uvicorn[standard]
